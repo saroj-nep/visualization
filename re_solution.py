@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Page configuration
-st.set_page_config(page_title="New Year's Resolution Dashboard", layout="wide")
+st.set_page_config(page_title="New Year's Resolution Dashboard", layout="wide", initial_sidebar_state="collapsed")
 
 # Title
 st.title("New Year's Resolution Challenge 2026")
